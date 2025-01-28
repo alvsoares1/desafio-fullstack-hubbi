@@ -1,4 +1,3 @@
-// src/repositories/VendaRepository.ts
 import { IVendaRepository } from "./IVendaRepository";
 import { Venda } from "../entities/Vendas";
 import { AppDataSource } from "../data-source";
