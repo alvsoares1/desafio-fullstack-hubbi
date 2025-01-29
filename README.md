@@ -22,6 +22,8 @@
 **Backend:**
 - Node.js
 
+- TypeScript
+
 - Express.js
 
 - TypeScript
