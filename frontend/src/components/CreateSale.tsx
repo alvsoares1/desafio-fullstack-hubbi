@@ -88,7 +88,7 @@ const CreateSale = () => {
             {sale.produtos && sale.produtos.length > 0 ? (
               sale.produtos.map((product: any) => (
                 <li key={product.id} className="text-lg">
-                  {product.nome} - R${parseFloat(product.preco).toFixed(2)} {/* Usando nome e preco corretamente */}
+                  {product.nome} - R${parseFloat(product.preco).toFixed(2)} 
                 </li>
               ))
             ) : (
